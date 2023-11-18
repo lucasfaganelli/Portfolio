@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- icon -->
+    <link
+      rel="shortcut icon"
+      href="	https://cdn-icons-png.flaticon.com/512/1369/1369791.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active"><strong>Home</strong></a>
+        <a href="#about"><strong>Sobre</strong> </a>
+        <a href="#technology"><strong>Tecnologias</strong></a>
+        <a href="#portfolio"><strong>Portfólio</strong></a>
+        <a href="#contact"><strong>Contato</strong></a>
+      </nav>
+    </header>
+
+    <!-- home section Design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Olá, me chamo</h3>
+        <h1>Lucas Faganelli</h1>
+        <h3>Sou um <span class="text-animation"></span></h3>
+        <p>
+          Estou montando meu primeiro portfólio para ingressar em vagas de
+          emprego e <br />
+          colocar em prática as técnicas que venho aprendendo.
+        </p>
+
+        <div class="social-media">
+          <a href="https://github.com/lucasfaganelli" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/lucas-faganelli-944545268/"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/lucas_faganelli/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <a href="#" class="btn" id="btn1">Download Curriculo</a>
+      </div>
+
+      <div class="home-img1">
+        <img src="./images/imagem.jpg" class="img1" id="img2" alt="" />
+      </div>
+    </section>
+
+    <!-- sobre section desing  -->
+    <section class="about" id="about">
+      <div class="about-img1">
+        <img src="./images/imagem2.jpg" alt="" id="img1" class="img1" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">Sobre <span>Mim</span></h2>
+        <h3>Apresentação Pessoal</h3>
+        <p>
+          Oi, meu nome é Lucas, tenho 20 anos e estou iniciando minha jornada no
+          mundo da programação. Desde que me interessei por essa área, dedico-me
+          diariamente para alcançar minha primeira oportunidade. Venho
+          desenvolvendo diversos projetos utilizando
+          <strong> HTML, CSS</strong> e <strong>JavaScript</strong>, aplicando
+          na prática o que venho aprendendo. Tenho facilidade de aprendizado,
+          boa comunicação e estou sempre em busca de aprimorar minhas
+          habilidades. <br />
+          <strong>Minha Soft Skills</strong> (comunicalção, resolução de
+          problemas, criatividade, empatia e colaboração) complementam minha
+          experiência, tornando-me eficaz no trabalho como programador
+        </p>
+        <a
+          href="https://www.linkedin.com/in/lucas-faganelli-944545268/"
+          target="_blank"
+          class="btn"
+          >Saiba Mais</a
+        >
+      </div>
+    </section>
+
+    <!-- tecnologias section desing -->
+    <section class="technology" id="technology">
+      <h2 class="heading">Tecnologias <span>Utilizadas</span></h2>
+
+      <div class="technology-container">
+        <div class="technology-box">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/732/732212.png"
+            alt=""
+            class="html5"
+          />
+          <h3>Html</h3>
+          <p>
+            A função do HTML é permitir que um navegador leia e traduza
+            marcações de textos e outras mídias para uma página na web,
+            permitindo que o usuário possa visualizar e interagir com essa
+            página. <br />
+            Isso inclui vídeos, formulários, áudio e muito mais.
+          </p>
+        </div>
+
+        <div class="technology-box">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
+            alt=""
+            class="css3"
+          />
+          <h3>Css</h3>
+          <p>
+            CSS Trata-se de uma linguagem de marcação, amplamente utilizada com
+            HTML ou XHTML, e representa diversas possibilidades para a
+            formatação. <br />
+            O CSS ajuda a editar, alinhar, remover e trabalhar no espaço entre
+            elementos de uma página.
+          </p>
+        </div>
+
+        <div class="technology-box">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
+            alt=""
+            class="javascript1"
+          />
+          <h3>JavaScript</h3>
+          <p>
+            O JavaScript surgiu como uma tecnologia do lado do navegador para
+            tornar as aplicações Web mais dinâmicas. Ao usar JavaScript, os
+            navegadores passaram a ser capazes de responder a interações do
+            usuário e alterar o layout do conteúdo na página.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section desing -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading"><span>Projetos</span> Mais recentes</h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./images/img1.png" alt="SPA universe" />
+          <div class="portfolio-layer">
+            <h4>SPA universe</h4>
+            <p>
+              SPA Universe: Projeto desenvolvido com conceitos de SPA (Single
+              Page Application) utilizando JavaScript, assincronismo e conceitos
+              de Programação Orientada a Objetos, como classes, herança e
+              polimorfismo.
+            </p>
+            <a href="https://spa-universe-ruddy.vercel.app/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/img2.png" alt="FocusTimer" />
+          <div class="portfolio-layer">
+            <h4>FocusTimer</h4>
+            <p>
+              FocusTimer: Projeto criado com foco em manipular o navegador,
+              utilizar a DOM, funções de retorno (callbacks), recursividade e
+              refatoração de código.
+              <a
+                href="https://lucasfaganelli.github.io/FocusTimer-2.0/"
+                target="_blank"
+                ><i class="bx bx-link-external"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/img3.png" alt="Biscoito-da-Sorte" />
+          <div class="portfolio-layer">
+            <h4>Biscoito da Sorte</h4>
+            <p>
+              Biscoito da Sorte: Projeto desenvolvido para treinar JavaScript,
+              transições de tela de "acertar" para "renovar biscoito" e gerar
+              mensagens aleatórias.
+            </p>
+            <a
+              href="https://lucasfaganelli.github.io/Biscoito-da-sorte/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/img4.png" alt="IMC" />
+          <div class="portfolio-layer">
+            <h4>IMC</h4>
+            <p>
+              Projeto desenvolvido para praticar javascript, transições de tela,
+              alerta de erro caso não utilize caráter essenciais a página e
+              aprender a refatorar código
+            </p>
+            <a
+              href="https://lucasfaganelli.github.io/Projeto-IMC/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/img5.png" alt="Explore sem limites" />
+          <div class="portfolio-layer">
+            <h4>Explore sem limites</h4>
+            <p>
+              Explore sem Limites: Projeto desenvolvido para colocar em prática
+              a regra de "mobile first," responsividade, variáveis no CSS,
+              animações e transições.
+            </p>
+            <a
+              href="https://lucasfaganelli.github.io/Explore-sem-limites/"
+              target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="./images/img6.png" alt="Fotoblog" />
+          <div class="portfolio-layer">
+            <h4>Fotoblog</h4>
+            <p>
+              Fotoblog: Projeto desenvolvido utilizando
+              <strong>display Grid</strong> e algumas animações no CSS.
+            </p>
+            <a href="https://lucasfaganelli.github.io/Fotoblog/" target="_blank"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contato section design  -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contate <span>Me!</span></h2>
+
+      <form
+        id="contactform"
+        action="https://formsubmit.co/lucasviniciusfaganeli@outlook.com"
+        method="POST"
+      >
+        <div class="input-box">
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+            required
+          />
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            required
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="Number"
+            id="celular"
+            name="celular"
+            placeholder="Celular (não é obrigatório)"
+          />
+          <input
+            type="text"
+            id="assunto"
+            name="assunto"
+            placeholder="Assunto do Email"
+            required
+          />
+        </div>
+        <textarea
+          id="mensagem"
+          name="mensagem"
+          cols="30"
+          rows="10"
+          placeholder="Sua Mensagem"
+        ></textarea>
+        <input type="submit" value="Enviar Mensagem" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Portfolio de Lucas Faganelli 2023 &copy;</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- revelação de rolagem -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Texto com animação  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- script  -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
